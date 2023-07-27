@@ -26,20 +26,44 @@ An interesting first insight, although what would be even more interesting is fi
 Still, there was a feeling that we can learn more about those topics. We ended up diving deeper into what’s hidden in those clusters and uncover the most influential words that made the topics what they are.<br><br>
 
 
-| Topic 1: Humanity       | Topic 2: Corporations     |
-| :--------------------: | :-----------------------: |
-| ![Humanity](assets/imgs/topic1.png)| ![Corporations](assets/imgs/topic2.png)|
-
-
-
-
-|                   <center>Topic 3: Corporations                                                     |
-| :-----------------------------------------------------------------------: |
-| ![Science](assets/imgs/topic3.png)                                        |
-
-| Topic 4: Science                 | Topic 5: Artificial Intelligence          |
-| :-----------------------------: | :-------------------------------------: |
-| ![Science](assets/imgs/topic4.png)          | ![Artificial Intelligence](assets/imgs/topic5.png)   |
+<style>
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .topic {
+        text-align: center;
+        margin: 10px;
+    }
+    .image {
+        margin: 10px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="topic">
+            <b>Topic 1: Humanity</b><br>
+            <img src="topic1.png" class="image">
+        </div>
+        <div class="topic">
+            <b>Topic 2: Corporations</b><br>
+            <img src="topic2.png" class="image">
+        </div>
+        <div class="topic">
+            <b>Topic 3: People vs. Technology</b><br>
+            <img src="topic3.png" class="image">
+        </div>
+        <div class="topic">
+            <b>Topic 4: Science</b><br>
+            <img src="topic4.png" class="image">
+        </div>
+        <div class="topic">
+            <b>Topic 5: Artificial Intelligence</b><br> 
+            <img src="topic5.png" class="image">
+        </div>
+    </div>
 
 
 
