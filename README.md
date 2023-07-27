@@ -24,10 +24,10 @@ An interesting first insight, although what would be even more interesting is fi
 
 
 Still, there was a feeling that we can learn more about those topics. We ended up diving deeper into what’s hidden in those clusters and uncover the most influential words that made the topics what they are.<br><br>
-<b>Topic 1: Humanity</b>     <b>Topic 2: Corporations</b><br>
+<b>Topic 1: Humanity</b>                             <b>Topic 2: Corporations</b><br>
 <img src="assets/imgs/topic1.png">
 <img src="assets/imgs/topic2.png"><br><br>
-<b>Topic 3: People vs. Technology</b><br>
+<b><center>Topic 3: People vs. Technology</b><br>
 <img src="assets/imgs/topic3.png"><br><br>
 <b>Topic 4: Science</b><br>
 <img src="assets/imgs/topic4.png"><br><br>
