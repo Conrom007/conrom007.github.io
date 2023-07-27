@@ -57,12 +57,14 @@ Still, there was a feeling that we can learn more about those topics. We ended u
             <b>Topic 2: Corporations</b><br>
             <img src="assets/imgs/topic2.png" class="image">
         </div>
-        <div class="center-topic"> <!-- This div centers the content of Topic 3 -->
-            <div class="topic">
-                <b>Topic 3: People vs. Technology</b><br>
-                <img src="assets/imgs/topic3.png" class="image">
-            </div>
+    </div>
+    <div class="container">
+        <div class="topic">
+            <b>Topic 3: People vs. Technology</b><br>
+            <img src="assets/imgs/topic3.png" class="image">
         </div>
+    </div>
+    <div class="container">
         <div class="topic">
             <b>Topic 4: Science</b><br>
             <img src="assets/imgs/topic4.png" class="image">
