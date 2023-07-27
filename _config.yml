@@ -6,9 +6,9 @@ description: University of Nicosia's Artificial Intelligence Laboratory
 lang: en-US
 
 # Pages to include in header navigation
-#nav_pages:
-#  - index.html
-#  - talks.md
+nav_pages:
+  - README.md
+  - article.md
 #  - press.md
 #  - about.md
 #  - contact.md
