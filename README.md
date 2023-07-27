@@ -1,5 +1,5 @@
 
-<p><span style="font-size: 34px;"><b>Public Sentiment and Stances on AI: Insights from Comments on Recent Developments</b></span><br>
+<p><span style="font-size: 32px;"><b>Public Sentiment and Stances on AI: Insights from Comments on Recent Developments</b></span><br>
 <br>
 
 Reading that this helpful new gadget, called ChatGPT, that just yesterday wrote an entire essay for your homework, might become as threatening as a nuclear war can be both unsettling and peculiar. Recently, industry leaders involved in AI development warned the public of how dangerous the unregulated development of AI systems can turn out to be. Artificial Intelligence systems are still a brave new frontier with most communities still uncertain of their limits and capabilities. Nonetheless, foreboding news easily turn into a magnet for internet denizens to flock around and voice their opinion.<br>
@@ -74,6 +74,7 @@ Still, there was a feeling that we can learn more about those topics. We ended u
 
 
 <br> <span style="font-size: 26px;"><b>Stance Detection</b></span><br>
+<br>
 In order to better understand not only the significance of these words but also the overarching feelings that encompass these five, very distinct, topics we needed to find a way to reveal the commenter’s stance towards the topic at hand through their comments. To achieve this we trained a model to perform Stance Detection on these comments in order to classify them as comments that either support the notion that “AI is a Threat to Humanity”, “AI will benefit Humanity” or remain Ambivalent on the matter. But how exactly does Stance Detection work and how does it differ from the Sentiment Detection mentioned above? While Sentiment Analysis scans the text to discover the Sentiment or, in other words, the emotional charge that permeates the sentences, Stance Detection, on the other hand, works by analyzing the text to decide which Stance or side it takes in a given argument. The results, given the overall tone and subject matter of the article, were not shocking at all with the vast majority of the comments supporting the notion that AI is a Threat to humanity as a whole.<br>
 
 <iframe src="assets/html/pie_stance.html" width="100%" height="600px"></iframe><br><br>
@@ -86,6 +87,7 @@ Could it be that everyone really is against AI or is it a case of people who hav
 <iframe src="assets/html/words_per_stance.html" width="100%" height="500px"></iframe><br><br>
 
 <span style="font-size: 26px;"><b>Sarcasm Detection.</b></span><br>
+<br>
 After taking a closer look at the comments and weighing them against their classified Stances and Sentiments we couldn’t help but notice that quite a few of them made ample use of sarcasm with comments being either fully ironic or having an ironic remark or two hidden somewhere in the almost paragraph-esque combination of sentences that made them up. So, in similar fashion to the Stance Detection we trained another model that this time detects instances of Sarcasm in the comments and classifies them as either containing Sarcasm or not. Again, the results were not very surprising with most Sarcastic or Sarcastically-leaning comments being Anti-AI. This could also provide an explanation for most, if not all, of the instances of Anti-AI comments that are Positive in their Sentiment.<br>
 
 
@@ -98,6 +100,7 @@ After taking a closer look at the comments and weighing them against their class
 
 
 <span style="font-size: 26px;"><b>Effort and Interactions</b></span> <br>
+<br>
 But, what about the overall effort that has been put into these comments? Surely, not everyone has the time or the way with words to “pen” down eloquent strings of words that carry across the meaning of what they’re thinking. Luckily for us, there is a way to gain an insight into this as well by examining the amount of words that each comment has and grouping them together into meaningful groups per their size or “bins” as they’re more commonly called.<br>
 <iframe src="assets/html/hist_comment_char_length.html" width="100%" height="600px"></iframe><br><br>
 This reveals that the vast majority of comments is on the shorter side with only a tiny minority breaching the 1,000 character threshold. But what exactly does this tell us? <a href="https://elifesciences.org/articles/18422">Research</a> has shown that humans, when presented with multiple choices, are more likely to choose to perform the action that seems the easiest and requires the least effort. Therefore, the analysis above seems to be in line with that observation but, are comments with only a few characters really the option that requires the least effort? While having the least amount of characters can definitely indicate the overall effort that has been put into a comment it turns out that there’s an even easier action that readers can take - one that requires no typing at all; liking the already-posted comments they agree with. As liking a comment you agree with is quicker and easier than typing out a comment that, if anything, serves only as a paraphrasing of what has already been said, it was no surprise to see that all the comments we analyzed have collectively gathered a whopping 23,042 likes. Therefore adding likes into the equation allows us to gain an additional perspective into the Stances displayed in the data. <br>
@@ -108,6 +111,7 @@ Based on the above we can infer that the comments that generated the most “buz
 <iframe src="assets/html/scatter.html" width="100%" height="500px"></iframe><br><br>
 
 <span style="font-size: 26px;"><b>Conclusion and Results</b></span><br>
+<br>
 Overall, we see that the most interacted with comments dealt with the subjects of Humanity and Humanity vs AI/Machines and judging by our prior Analysis of Stance and Sentiment it appears that the majority of commenters don’t seem to share the brightest outlook on the immediate future of humanity in a post-AI-boom world. So, after all this you might be wondering, “What does an average comment from that article look like?”. Well, we have an answer for that as well! While we can’t necessarily share with you the comments as they are, due to privacy-related concerns, we thought it would be interesting to “feed” these comments into an LLM, GPT-4 to be precise, and ask it to return comments that resemble the ones we gave it. The results are actually surprisingly accurate with comments such as:<br>
 <br>
 1. "AI is a double-edged sword, and we need to be careful how we wield it."<br>
