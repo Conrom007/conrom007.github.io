@@ -16,10 +16,10 @@ Our first step was to gauge the public sentiment based on the comments. The mode
 <img src="assets/imgs/posts sent.png"><br>
 
 The comments section of an article is often the ground of heated discussions between users. Based on the sentiment the comments echoed, we analyzed the number of replies they received within the first couple of days that the article went live. We can see how the, expectedly, increased activity of the first hour was strongly polarized. <br><br>
-<iframe src="sentiment_time_series.html" width="100%" height="500px"></iframe><br><br>
+<iframe src="assets/html/sentiment_time_series.html" width="100%" height="500px"></iframe><br><br>
 <span style="font-size: 20px;"><b>Topic Modeling</b></span><br><br>
 An interesting first insight, although what would be even more interesting is finding the discussions those comments revolve around. A great way to achieve this, bar reading 1500 comments, is topic modeling. Topic modeling allows us to cluster the discussion under different categories based on their content. The algorithm we followed yielded five distinct topics. The comments were then assigned to their respective topic and the connections to their replies were established. In the following interactive map one can explore the various comments, how they are connected and what topic they belong to. <br><br>
-<iframe src="graph_coms_topics.html" width="100%" height="700px"></iframe><br><br>
+<iframe src="assets/html/graph_coms_topics.html" width="100%" height="700px"></iframe><br><br>
 
 
 
