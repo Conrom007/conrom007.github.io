@@ -1,6 +1,4 @@
-body {
-  font-size: 20px;
-}
+
 
 <p><span style="font-size: 32px;"><b>Public Sentiment and Stances on AI: Insights from Comments on Recent Developments</b></span><br>
 <br>
