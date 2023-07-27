@@ -1,5 +1,5 @@
 
-<p><span style="font-size: 24px;"><b>Public Sentiment and Stances on AI: Insights from Comments on Recent Developments</b></span><br>
+<p><span style="font-size: 34px;"><b>Public Sentiment and Stances on AI: Insights from Comments on Recent Developments</b></span><br>
 <br>
 
 Reading that this helpful new gadget, called ChatGPT, that just yesterday wrote an entire essay for your homework, might become as threatening as a nuclear war can be both unsettling and peculiar. Recently, industry leaders involved in AI development warned the public of how dangerous the unregulated development of AI systems can turn out to be. Artificial Intelligence systems are still a brave new frontier with most communities still uncertain of their limits and capabilities. Nonetheless, foreboding news easily turn into a magnet for internet denizens to flock around and voice their opinion.<br>
