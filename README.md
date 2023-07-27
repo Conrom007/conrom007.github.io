@@ -52,10 +52,10 @@ After taking a closer look at the comments and weighing them against their class
 
 
 
-<iframe src="assets/html/heatmap_stance_sentiment.html" width="70%" height="600px"></iframe>
-<iframe src="assets/html/heatmap_stance_sarcasm.html" width="70%" height="600px"></iframe>
-<iframe src="assets/html/stacked_stance_sentiment.html" width="70%" height="600px"></iframe>
-<iframe src="assets/html/stacked_stance_sarcasm.html" width="70%" height="900px"></iframe><br><br>
+<iframe src="assets/html/heatmap_stance_sentiment.html" width="100%" height="600px"></iframe>
+<iframe src="assets/html/heatmap_stance_sarcasm.html" width="100%" height="600px"></iframe>
+<iframe src="assets/html/stacked_stance_sentiment.html" width="100%" height="600px"></iframe>
+<iframe src="assets/html/stacked_stance_sarcasm.html" width="100%" height="900px"></iframe><br><br>
 
 
 
