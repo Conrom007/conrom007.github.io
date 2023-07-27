@@ -40,28 +40,27 @@ Still, there was a feeling that we can learn more about those topics. We ended u
         margin: 10px;
     }
 </style>
-</head>
 <body>
     <div class="container">
         <div class="topic">
             <b>Topic 1: Humanity</b><br>
-            <img src="topic1.png" class="image">
+            <img src="assets/imgs/topic1.png" class="image">
         </div>
         <div class="topic">
             <b>Topic 2: Corporations</b><br>
-            <img src="topic2.png" class="image">
+            <img src="assets/imgs/topic2.png" class="image">
         </div>
         <div class="topic">
             <b>Topic 3: People vs. Technology</b><br>
-            <img src="topic3.png" class="image">
+            <img src="assets/imgs/topic3.png" class="image">
         </div>
         <div class="topic">
             <b>Topic 4: Science</b><br>
-            <img src="topic4.png" class="image">
+            <img src="assets/imgs/topic4.png" class="image">
         </div>
         <div class="topic">
             <b>Topic 5: Artificial Intelligence</b><br> 
-            <img src="topic5.png" class="image">
+            <img src="assets/imgs/topic5.png" class="image">
         </div>
     </div>
 
