@@ -24,16 +24,25 @@ An interesting first insight, although what would be even more interesting is fi
 
 
 Still, there was a feeling that we can learn more about those topics. We ended up diving deeper into what’s hidden in those clusters and uncover the most influential words that made the topics what they are.<br><br>
-<b>Topic 1: Humanity</b><br>
-<img src="topic1.png">
-<b>Topic 2: Corporations</b><br>
-<img src="topic2.png"><br><br>
-<b><center>Topic 3: People vs. Technology</b><br>
-<img src="topic3.png"><br><br>
-<b>Topic 4: Science</b><br>
-<img src="topic4.png">
-<b>Topic 5: Artificial Intelligence</b><br> 
-<img src="topic5.png"><br><br>
+
+
+| Topic 1: Humanity       |                        | Topic 2: Corporations     |
+| :--------------------: | :-----------------------: | :-----------------------: |
+| ![Humanity](assets/imgs/topic1.png) |                             | ![Corporations](assets/imgs/topic2.png) |
+
+## Topic 3: People vs. Technology
+<center>
+![People vs. Technology](assets/imgs/topic3.png)
+</center>
+
+
+| Topic 4: Science       | Topic 5: Artificial Intelligence |
+| :--------------------: | :--------------------------: |
+| ![Science](assets/imgs/topic4.png) | ![Artificial Intelligence](assets/imgs/topic5.png) |
+
+
+
+
 
 <span style="font-size: 20px;"><b>Stance Detection</b></span><br>
 In order to better understand not only the significance of these words but also the overarching feelings that encompass these five, very distinct, topics we needed to find a way to reveal the commenter’s stance towards the topic at hand through their comments. To achieve this we trained a model to perform Stance Detection on these comments in order to classify them as comments that either support the notion that “AI is a Threat to Humanity”, “AI will benefit Humanity” or remain Ambivalent on the matter. But how exactly does Stance Detection work and how does it differ from the Sentiment Detection mentioned above? While Sentiment Analysis scans the text to discover the Sentiment or, in other words, the emotional charge that permeates the sentences, Stance Detection, on the other hand, works by analyzing the text to decide which Stance or side it takes in a given argument. The results, given the overall tone and subject matter of the article, were not shocking at all with the vast majority of the comments supporting the notion that AI is a Threat to humanity as a whole.<br>
