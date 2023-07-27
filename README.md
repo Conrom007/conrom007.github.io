@@ -26,19 +26,20 @@ An interesting first insight, although what would be even more interesting is fi
 Still, there was a feeling that we can learn more about those topics. We ended up diving deeper into what’s hidden in those clusters and uncover the most influential words that made the topics what they are.<br><br>
 
 
-| Topic 1: Humanity       |                        | Topic 2: Corporations     |
-| :--------------------: | :-----------------------: | :-----------------------: |
-| ![Humanity](assets/imgs/topic1.png) |                             | ![Corporations](assets/imgs/topic2.png) |
-
-## Topic 3: People vs. Technology
-<center>
-![People vs. Technology](assets/imgs/topic3.png)
-</center>
+| Topic 1: Humanity       | Topic 2: Corporations     |
+| :--------------------: | :-----------------------: |
+| ![Humanity](assets/imgs/topic1.png)| ![Corporations](assets/imgs/topic2.png)|
 
 
-| Topic 4: Science       | Topic 5: Artificial Intelligence |
-| :--------------------: | :--------------------------: |
-| ![Science](assets/imgs/topic4.png) | ![Artificial Intelligence](assets/imgs/topic5.png) |
+
+
+|                   <center>Topic 3: Corporations                                                     |
+| :-----------------------------------------------------------------------: |
+| ![Science](assets/imgs/topic3.png)                                        |
+
+| Topic 4: Science                 | Topic 5: Artificial Intelligence          |
+| :-----------------------------: | :-------------------------------------: |
+| ![Science](assets/imgs/topic4.png)          | ![Artificial Intelligence](assets/imgs/topic5.png)   |
 
 
 
