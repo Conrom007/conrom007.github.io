@@ -46,7 +46,6 @@ Still, there was a feeling that we can learn more about those topics. We ended u
         align-items: center;
     }
 </style>
-</head>
 <body>
     <div class="container">
         <div class="topic">
