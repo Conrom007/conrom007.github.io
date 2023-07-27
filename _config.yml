@@ -9,7 +9,7 @@ lang: en-US
 nav_pages:
   - README.md
   - article.md
-#  - press.md
+  - hello.md
 #  - about.md
 #  - contact.md
 
