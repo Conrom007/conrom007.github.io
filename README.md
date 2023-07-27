@@ -38,7 +38,7 @@ Still, there was a feeling that we can learn more about those topics. We ended u
 <span style="font-size: 20px;"><b>Stance Detection</b></span><br>
 In order to better understand not only the significance of these words but also the overarching feelings that encompass these five, very distinct, topics we needed to find a way to reveal the commenter’s stance towards the topic at hand through their comments. To achieve this we trained a model to perform Stance Detection on these comments in order to classify them as comments that either support the notion that “AI is a Threat to Humanity”, “AI will benefit Humanity” or remain Ambivalent on the matter. But how exactly does Stance Detection work and how does it differ from the Sentiment Detection mentioned above? While Sentiment Analysis scans the text to discover the Sentiment or, in other words, the emotional charge that permeates the sentences, Stance Detection, on the other hand, works by analyzing the text to decide which Stance or side it takes in a given argument. The results, given the overall tone and subject matter of the article, were not shocking at all with the vast majority of the comments supporting the notion that AI is a Threat to humanity as a whole.<br>
 
-<iframe src="pie_stance.html" width="70%" height="600px" width="100px"></iframe><br><br>
+<iframe src="assets/html/pie_stance.html" width="70%" height="600px" width="100px"></iframe><br><br>
 
 This was also a good opportunity to see the rate at which the comments belonging to each Stance were posted over the course of the first 24 hours. <br>
 
@@ -67,7 +67,7 @@ This reveals that the vast majority of comments is on the shorter side with only
 
 Based on the above we can infer that the comments that generated the most “buzz” and echoed the loudest amongst the readers of this article were the ones with the “AI is a Threat” stance across all sentiments with the comments with a Neutral Sentiment and the Stance that “AI is Not a Threat” following right behind (could it be a case of reserved/grounded optimism?). Lastly, we decided to visualize the overall interactions that the comments received while taking into account their effort (character length) and their Topic. To achieve that we created a Scatterplot where all the points are distributed in the space based on their Likes and Character Length and where each point’s Size and Colour dictate the number of Replies they received and which Topic they belong to respectively.<br>
 
-<iframe src="scatter.html" width="100%" height="500px"></iframe><br><br>
+<iframe src="assets/html/scatter.html" width="100%" height="500px"></iframe><br><br>
 
 <span style="font-size: 20px;"><b>Conclusion and Results</b></span><br>
 Overall, we see that the most interacted with comments dealt with the subjects of Humanity and Humanity vs AI/Machines and judging by our prior Analysis of Stance and Sentiment it appears that the majority of commenters don’t seem to share the brightest outlook on the immediate future of humanity in a post-AI-boom world. So, after all this you might be wondering, “What does an average comment from that article look like?”. Well, we have an answer for that as well! While we can’t necessarily share with you the comments as they are, due to privacy-related concerns, we thought it would be interesting to “feed” these comments into an LLM, GPT-4 to be precise, and ask it to return comments that resemble the ones we gave it. The results are actually surprisingly accurate with comments such as:<br>
@@ -78,12 +78,3 @@ Overall, we see that the most interacted with comments dealt with the subjects o
 4. "The power of AI should not be underestimated, and we must be prepared to face the consequences of its misuse."<br>
 <br>
 Since we have spent quite some time with the actual comments we can confirm that these are really close to the real deal and contain most, if not all, of the concerns that the “AI is a Threat” demographic seems to share. Of course there were also comments that believed that AI will not only help Humanity in the short term by improving the current quality of life (e.g Automation in Medicine) but will also be the foundation of our future but as these comments were few and far between it is only logical that the model returned only the first type of comment as the average. This reveals that the vast majority of comments is on the shorter side with only a tiny minority breaching the 1,000 character threshold.<br>
-
-
-
-
-
-
-</p>
-</body>
-</html>
