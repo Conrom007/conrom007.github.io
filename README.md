@@ -39,12 +39,7 @@ Still, there was a feeling that we can learn more about those topics. We ended u
     .image {
         margin: 10px;
     }
-    /* Additional CSS to center Topic 3 */
-    .center-topic {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+
 </style>
 <body>
     <div class="container">
